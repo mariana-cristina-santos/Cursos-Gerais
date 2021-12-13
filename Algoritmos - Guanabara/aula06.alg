@@ -43,3 +43,20 @@ Escreva ("No Brasil estaria , celsius: 4:1") //4 casas e 1 apos a virgula
 
 
 fimalgoritmo
+
+//////////////
+
+
+algoritmo "impostoSobreMercadorias"
+var 
+preco, imposto: Real
+
+inicio
+
+Escreva ("Qual é o preço do produto? ")
+Leia (preco)
+imposto <- (preco * 60) / 100
+Escreva ("O imposto será de U$$ ", imposto:5:2) // 5 casas e 2 decimais no final
+
+
+fimalgoritmo
