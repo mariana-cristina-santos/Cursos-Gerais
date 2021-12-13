@@ -13,7 +13,7 @@ inicio
     Escreva("Minha idade será ", idade)
 fimalgoritmo
 
-
+/////
 
 algoritmo "reaisEmDolares"
 var
@@ -25,6 +25,21 @@ inicio
     Leia(reais)
     dolares <- reais/2.20
     Escreva("Posso ter U$$, dolares)
+fimalgoritmo
+
+
+////
+
+algoritmo "grausEmFahrenheit"
+var 
+
+celsius, fahrenheit: Real
+
+inicio
+Escreva ("Qual a temperatura aqui nos EUA? ")
+Leia (fahrenheit)
+celsius <- (fahrenheit -32) /1.8
+Escreva ("No Brasil estaria , celsius: 4:1") //4 casas e 1 apos a virgula
 
 
 fimalgoritmo
