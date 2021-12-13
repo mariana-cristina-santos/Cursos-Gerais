@@ -12,3 +12,19 @@ inicio
     idade<- ano_atual-ano_nascimento
     Escreva("Minha idade será ", idade)
 fimalgoritmo
+
+
+
+algoritmo "reaisEmDolares"
+var
+
+    reais, dolares: Real //tipo real já que tem a parte decimal
+
+inicio 
+    Escreva ("Quantos reais eu tenho? ")
+    Leia(reais)
+    dolares <- reais/2.20
+    Escreva("Posso ter U$$, dolares)
+
+
+fimalgoritmo
