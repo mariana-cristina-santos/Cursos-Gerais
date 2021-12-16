@@ -58,5 +58,18 @@ Leia (preco)
 imposto <- (preco * 60) / 100
 Escreva ("O imposto será de U$$ ", imposto:5:2) // 5 casas e 2 decimais no final
 
+fimalgoritmo
+
+
+///////
+
+algoritmo "emprestimoEmParcelas"
+var 
+    emprestimo, juros: Real
+
+inicio
+    Escreva ("Qual é o valor do meu emprestimo? ")
+    Leia (emprestimo)
+    juros <- (emprestimo * 20) / 100
 
 fimalgoritmo
